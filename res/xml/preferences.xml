@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	    <EditTextPreference
+	        android:defaultValue="https://upload.wikimedia.org/wikipedia/en/3/3d/Equality_Now_logo.png"
+	        android:dialogTitle="@string/image_url"
+	        android:inputType="textWebEmailAddress"
+	        android:key="editText_imageURL"
+	        android:summary="@string/image_url"
+	        android:title="@string/image_url" />
+</PreferenceScreen>
